@@ -1,6 +1,7 @@
 package com;
 
-public class Airthmetic {
+public class Arithmetic{
+
     int add(int a,int b)
     {
         int c;
@@ -15,4 +16,18 @@ public class Airthmetic {
 
     }
     int multiply(int g,int h)
+
+    {
+        int i;
+        i=g*h;
+        return i;
+
+    }
+    int divide(int j,int k)
+    {
+        int l;
+        l=j+k;
+        return l;
+    }
+
 }
