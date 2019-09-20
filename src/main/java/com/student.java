@@ -91,6 +91,24 @@ public class student {
         if(determineResult())
         {
             System.out.println("PASS");
+           if(percentage<50){
+               results="F";
+           }
+           else if(percentage<60)
+           {
+               results="D";
+           } else if (percentage < 70
+           ) {
+               results="c";
+           }
+           else if (percentage<100)
+           {
+               results="a";
+           }
+
+         System.out.println("grade is" + results);
+
+
         }
         else
         {
@@ -114,15 +132,7 @@ public class student {
         if (marks5 < PASS_MARKS) {
             count++;
         }
-        if(count ==1)
-        {
-            System.out.println("FAIL");
-            return false;
-        }else if(count >= 2)
-        {
-            System.out.println("FAIl");
-            return  false;
-        }
+
         if (count >= 2) {
             return false;
         }

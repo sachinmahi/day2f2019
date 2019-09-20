@@ -16,10 +16,10 @@ public class collegeexample {
         S1.setLastName("mahi");
 
         S1.setMarks1(40);
-        S1.setMarks2(40);
-        S1.setMarks3(50);
-        S1.setMarks4(50);
-        S1.setMarks5(50);
+        S1.setMarks2(60);
+        S1.setMarks3(60);
+        S1.setMarks4(60);
+        S1.setMarks5(60);
         System.out.println(S1.getFullName());
         S1.generateResult();
 
